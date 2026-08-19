@@ -2,7 +2,7 @@
 
 <img src="./assets/profile-banner.svg" width="100%" alt="조용필 — Game Client × AI Developer" />
 
-**Unity로 플레이 경험을 만들고, 그 게임을 만드는 절차를 자동화합니다.**
+**Unity로 플레이 경험을 만들고, 그 게임을 만드는 절차를 자동화합니다.**  
 반도체 장비 문서의 버전을 관리하다 자동화를 배웠고, 지금은 게임을 만듭니다.
  
 [이메일](mailto:qldpdml12@gmail.com) · [기술 블로그](https://bbie-6772.github.io/) · [Slime Ranch 플레이](https://ys143112.github.io/Slime/)
