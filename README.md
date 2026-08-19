@@ -14,6 +14,7 @@
 
 | 프로젝트 | 담당·구현 | 기술 |
 | --- | --- | --- |
+| [Ducktopia](https://app.notion.com/p/teamsparta/PROJECT-DUCKTOPIA-1a82dc3ef51480afa1b2e43db5fe6a75)<br>[코드](https://github.com/kms5064/DUCKTOPIA) · [플레이](https://kms5064navercom.itch.io/ducktopia) | 팀 프로젝트 · 2–8인 Unity 협동 게임의 Gateway·Lobby·Game 분산 서버 설계·구현, Redis 기반 health check·load balancing, AWS ECS·Docker 배포 | `Node.js` `TCP/Protobuf` `Redis` `AWS ECS` |
 | [Slime Ranch](https://github.com/ys143112/Slime) | 팀 프로젝트 · Pixel art asset AI 생성·검수, AI-assisted procedural map generator·기본 UI layout 구현 | `Unity` `C#` `AI Asset Pipeline` |
 | [Game Develop Orchestration](https://github.com/JugleGame/Game-Develop-Orchestration) | 상용 AI Agent 기반 game development workflow · LangGraph 도입 후 Host Agent + MCP 구조로 단순화 | `Python` `MCP` `AI Agent` |
 | [Game Planning RAG](https://github.com/JugleGame/Game-Planning-RAG) | 본인 구현 · 게임 설계 카드 검증, section-level hybrid retrieval, Neon Postgres/pgvector mirror·evaluation | `Python` `RAG` `Neon` `pgvector` |
@@ -21,7 +22,7 @@
 ## 장비 구성 · Loadout
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=unity,unreal,cs,python,postgres,docker,redis,nodejs&theme=dark&perline=8" alt="Unity, Unreal Engine, C#, Python, PostgreSQL, Docker, Redis, Node.js" />
+  <img src="https://skillicons.dev/icons?i=unity,unreal,cs,python,postgres,aws,docker,redis,nodejs&theme=dark&perline=9" alt="Unity, Unreal Engine, C#, Python, PostgreSQL, AWS, Docker, Redis, Node.js" />
 </p>
 
 <p align="center">
