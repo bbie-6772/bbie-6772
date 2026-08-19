@@ -1,47 +1,36 @@
-<h2 align="left">Hi 👋! My name is Yongpil Jo and I'm a Back-End Developer, from Korea</h2>
-
-###
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bbie-6772&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bbie-6772&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+
+<img src="./assets/profile-banner.svg" width="100%" alt="조용필 — Game Client × AI Developer" />
+
+**Unity로 플레이 경험을 만들고, RAG와 AI Agent로 게임 제작 workflow를 설계합니다.**
+
+[이메일](mailto:qldpdml12@gmail.com) · [Slime Ranch 플레이](https://ys143112.github.io/Slime/)
+
 </div>
 
-###
+---
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="30" alt="redis logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
-</div>
+## 대표 작업
 
-###
+| 프로젝트 | 담당·구현 | 기술 |
+| --- | --- | --- |
+| [Slime Ranch](https://github.com/ys143112/Slime) | 팀 프로젝트 · Pixel art asset AI 생성·검수, AI-assisted procedural map generator·기본 UI layout 구현 | `Unity` `C#` `AI Asset Pipeline` |
+| [Game Develop Orchestration](https://github.com/JugleGame/Game-Develop-Orchestration) | 상용 AI Agent 기반 game development workflow · LangGraph 도입 후 Host Agent + MCP 구조로 단순화 | `Python` `MCP` `AI Agent` |
+| [Game Planning RAG](https://github.com/JugleGame/Game-Planning-RAG) | 본인 구현 · 게임 설계 카드 검증, section-level hybrid retrieval, Neon Postgres/pgvector mirror·evaluation | `Python` `RAG` `Neon` `pgvector` |
 
-<br clear="both">
+## 장비 구성 · Loadout
 
-<img src="https://raw.githubusercontent.com/bbie-6772/bbie-6772/output/snake.svg" alt="Snake animation" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=unity,unreal,cs,python,postgres,docker,redis,nodejs&theme=dark&perline=8" alt="Unity, Unreal Engine, C#, Python, PostgreSQL, Docker, Redis, Node.js" />
+</p>
 
-###
+<p align="center">
+  <strong>Game Client</strong> · Unity · Unreal Engine · C# · Procedural Generation<br />
+  <strong>AI Engineering</strong> · Python · RAG · AI Agent Orchestration · MCP · Postgres/pgvector
+</p>
 
-<img align="right" src="https://profile-counter.glitch.me/bbie-6772/count.svg?"  />
+## 플레이어 통계 · Player Stats
 
-###
-
-<div align="left">
-  <a href="mailto:qldpdml12@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
-  </a>
-  <a href="https://discord.com/users/bbie6772" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  </a>
-</div>
-
-###
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bbie-6772&theme=github_dark" width="100%" alt="bbie-6772의 GitHub 기여 활동 요약" />
+</p>

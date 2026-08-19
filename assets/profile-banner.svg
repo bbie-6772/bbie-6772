@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">조용필 — Game Client × AI Developer</title>
+  <desc id="desc">Unity game client와 RAG, AI Agent workflow를 두 개의 연결된 pipeline으로 표현한 프로필 배너</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="client-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="ai-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#30363d" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" rx="16" fill="url(#background)"/>
+  <rect width="1200" height="260" rx="16" fill="url(#grid)" opacity="0.42"/>
+  <path d="M0 214 H1200" stroke="#30363d"/>
+  <path d="M706 0 V260" stroke="#30363d"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="58" y="62" fill="#8b949e" font-size="16" letter-spacing="4">GAME CLIENT × AI</text>
+    <text x="56" y="126" fill="#f0f6fc" font-size="48" font-weight="700" letter-spacing="1">CHO YONG PIL</text>
+    <text x="58" y="164" fill="#c9d1d9" font-size="21">Playable systems. Intelligent workflows.</text>
+
+    <g font-size="15" font-weight="600">
+      <rect x="58" y="188" width="84" height="32" rx="6" fill="#1f6feb" fill-opacity="0.22" stroke="#58a6ff"/>
+      <text x="100" y="209" fill="#79c0ff" text-anchor="middle">UNITY</text>
+      <rect x="152" y="188" width="60" height="32" rx="6" fill="#1f6feb" fill-opacity="0.22" stroke="#58a6ff"/>
+      <text x="182" y="209" fill="#79c0ff" text-anchor="middle">C#</text>
+      <rect x="222" y="188" width="70" height="32" rx="6" fill="#8957e5" fill-opacity="0.22" stroke="#bc8cff"/>
+      <text x="257" y="209" fill="#d2a8ff" text-anchor="middle">RAG</text>
+      <rect x="302" y="188" width="94" height="32" rx="6" fill="#8957e5" fill-opacity="0.22" stroke="#bc8cff"/>
+      <text x="349" y="209" fill="#d2a8ff" text-anchor="middle">AGENTS</text>
+    </g>
+
+    <g fill="#8b949e" font-size="12" font-weight="600" letter-spacing="1.2">
+      <text x="750" y="45">GAME CLIENT</text>
+      <text x="750" y="151">AI WORKFLOW</text>
+    </g>
+
+    <g font-size="13" font-weight="600" text-anchor="middle">
+      <path d="M760 92 H1092" stroke="url(#client-line)" stroke-width="3"/>
+      <circle cx="778" cy="92" r="19" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+      <circle cx="902" cy="92" r="24" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+      <circle cx="1026" cy="92" r="24" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+      <text x="778" y="97" fill="#79c0ff">INPUT</text>
+      <text x="902" y="97" fill="#79c0ff">UNITY</text>
+      <text x="1026" y="97" fill="#7ee787">PLAY</text>
+
+      <path d="M760 198 H1092" stroke="url(#ai-line)" stroke-width="3"/>
+      <circle cx="778" cy="198" r="19" fill="#0d1117" stroke="#bc8cff" stroke-width="2"/>
+      <circle cx="902" cy="198" r="24" fill="#0d1117" stroke="#bc8cff" stroke-width="2"/>
+      <circle cx="1026" cy="198" r="24" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+      <text x="778" y="203" fill="#d2a8ff">DATA</text>
+      <text x="902" y="203" fill="#d2a8ff">RAG</text>
+      <text x="1026" y="203" fill="#7ee787">AGENT</text>
+    </g>
+
+    <g fill="#3fb950">
+      <rect x="1120" y="81" width="10" height="10" rx="2"/>
+      <rect x="1136" y="81" width="10" height="10" rx="2" opacity="0.75"/>
+      <rect x="1152" y="81" width="10" height="10" rx="2" opacity="0.45"/>
+      <rect x="1120" y="187" width="10" height="10" rx="2"/>
+      <rect x="1136" y="187" width="10" height="10" rx="2" opacity="0.75"/>
+      <rect x="1152" y="187" width="10" height="10" rx="2" opacity="0.45"/>
+    </g>
+  </g>
+</svg>
