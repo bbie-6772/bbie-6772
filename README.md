@@ -21,7 +21,7 @@
 | [Game Planning RAG](https://github.com/JugleGame/Game-Planning-RAG) | **본인 구현** · 게임 설계 카드의 스키마·인용 자동 검증, section-level hybrid retrieval, Neon Postgres/pgvector mirror·evaluation | `Python` `RAG` `pgvector` |
 
 
-## 장비 구성 · Loadout
+## Skill 구성 · Loadout
  
 [![Unity, Unreal Engine, C#, Python, PostgreSQL, AWS, Docker, Redis, Node.js](https://skillicons.dev/icons?i=unity,unreal,cs,python,postgres,aws,docker,redis,nodejs&theme=dark&perline=9)](https://skillicons.dev)
  
