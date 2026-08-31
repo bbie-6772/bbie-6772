@@ -20,11 +20,11 @@
 
 ## 👋 About Me
 
-현재 **Unity와 C#으로 게임 플레이 코드를 직접 작성하며 게임 클라이언트 개발을 공부하고 있습니다.**
+**게임이 왜 그렇게 동작하는지 이해하고, 반복되는 문제를 코드와 도구로 줄이는 개발을 좋아합니다.**
 
-플레이어 이동과 조준, 적 생성과 추적, 공격과 피해 처리처럼 화면에서 실제 플레이로 이어지는 기능을 직접 구현하고, 구현 과정에서 생긴 설계 판단은 문서로 남기고 있습니다.
+자동화와 게임 서버 개발을 통해 구조와 데이터 흐름을 다뤄왔고, 이후 Unity 클라이언트까지 범위를 넓혀 입력과 상태, 상호작용이 실제 플레이 경험으로 이어지는 과정을 직접 구현하고 있습니다.
 
-이전에 멀티플레이 게임 서버를 개발한 경험은 클라이언트와 서버가 같은 게임 상태를 어떻게 나누어 책임지는지 이해하는 배경이 되었습니다. 문제를 만났을 때는 바로 기능을 덧붙이기보다 **재현 → 원인 범위 축소 → 수정 → 재검증**의 과정을 중요하게 생각합니다.
+특정 기술 하나에만 머무르기보다 **게임 클라이언트를 중심으로 서버와 개발 도구까지 연결해 이해하는 것**, 그리고 시행착오와 설계 판단을 문서로 남기는 것을 중요하게 생각합니다.
 
 ---
 
@@ -53,7 +53,7 @@
 
 # 🌐 Server Background — Secondary Strength
 
-서버 경험은 제 1순위 직무가 아니라, **게임 클라이언트를 더 넓게 이해하기 위한 배경 역량**으로 가져가고 있습니다.
+서버 경험은 **게임 클라이언트를 더 넓게 이해하기 위한 배경 역량**으로 가져가고 있습니다.
 
 <details>
 <summary><b>멀티플레이 서버 경험 보기</b> — DUCKTOPIA · TCP Multiplayer</summary>
@@ -133,7 +133,8 @@ AI에게 게임 개발을 어디까지 맡길 수 있는지 확인하기 위해 
 
 [![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bbie-6772&theme=github_dark)](https://github.com/bbie-6772)
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bbie-6772&theme=github-compact&hide_border=true)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bbie-6772&theme=github_dark" height="165" alt="GitHub stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bbie-6772&theme=github_dark&utcOffset=9" height="165" alt="GitHub productive time" />
 
 </div>
 
