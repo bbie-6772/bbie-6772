@@ -32,9 +32,9 @@ Node.js 기반 멀티플레이 게임 서버를 개발하면서 클라이언트�
 
 # 🎮 Featured Projects
 
-## 🟢 [2d-survivor](https://github.com/bbie-6772/2d-survivor) `In Progress`
-
-> **Unity · C# · Game Client**
+<details>
+<summary><b>🟢 2d-survivor</b> — Unity · C# · Game Client <code>In Progress</code></summary>
+<br>
 
 Unity 클라이언트 코드를 직접 작성하며 웨이브 서바이버의 핵심 게임 플레이를 구현하고 있습니다.
 
@@ -46,9 +46,13 @@ Unity 클라이언트 코드를 직접 작성하며 웨이브 서바이버의 �
 
 [![Repository](https://img.shields.io/badge/Repository-2d--survivor-181717?style=flat-square&logo=github)](https://github.com/bbie-6772/2d-survivor)
 
----
+</details>
 
-## 🦆 [DUCKTOPIA](https://github.com/kms5064/DUCKTOPIA)
+<br>
+
+<details>
+<summary><b>🦆 DUCKTOPIA</b> — Multiplayer Server · <b>283 commits</b> · <b>~1,850 sessions/server</b></summary>
+<br>
 
 > **Node.js · TCP · Protobuf · Redis · Docker · AWS**
 
@@ -63,11 +67,13 @@ Unity 클라이언트 코드를 직접 작성하며 웨이브 서바이버의 �
 [![Repository](https://img.shields.io/badge/Repository-DUCKTOPIA-181717?style=flat-square&logo=github)](https://github.com/kms5064/DUCKTOPIA)
 [![My Commits](https://img.shields.io/badge/My_Commits-283-2EA44F?style=flat-square&logo=github)](https://github.com/kms5064/DUCKTOPIA/commits?author=bbie-6772)
 
----
+</details>
 
-## 🌐 [TCP Multiplayer Game Server](https://github.com/bbie-6772/TCP-Multi-Playgame)
+<br>
 
-> **Node.js · TCP · Protobuf**
+<details>
+<summary><b>🌐 TCP Multiplayer Game Server</b> — Node.js · TCP · Protobuf · <b>오차 허용 10% → 5%</b></summary>
+<br>
 
 여러 명이 같은 공간에서 움직이는 멀티플레이 게임 서버를 직접 구현했습니다.
 
@@ -77,9 +83,15 @@ Unity 클라이언트 코드를 직접 작성하며 웨이브 서바이버의 �
 
 [![Repository](https://img.shields.io/badge/Repository-TCP--Multi--Playgame-181717?style=flat-square&logo=github)](https://github.com/bbie-6772/TCP-Multi-Playgame)
 
+</details>
+
 ---
 
 # 🛠 AI & Developer Tooling
+
+<details>
+<summary><b>AI Game Development Experiments</b> — Orchestration · RAG · 검증 중심 활용</summary>
+<br>
 
 AI에게 게임 개발을 어디까지 맡길 수 있는지 확인하기 위해 개발 작업을 단계별로 나누는 Orchestration 구조와 게임 설계 지식을 검색하는 RAG 도구를 실험했습니다.
 
@@ -89,6 +101,8 @@ AI에게 게임 개발을 어디까지 맡길 수 있는지 확인하기 위해 
 
 [![Orchestration](https://img.shields.io/badge/Game_Develop-Orchestration-412991?style=flat-square&logo=github)](https://github.com/JugleGame/Game-Develop-Orchestration)
 [![RAG](https://img.shields.io/badge/Game_Planning-RAG-412991?style=flat-square&logo=github)](https://github.com/JugleGame/Game-Planning-RAG)
+
+</details>
 
 ---
 
