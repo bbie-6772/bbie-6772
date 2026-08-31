@@ -25,7 +25,7 @@
  
 [![Unity, C#, Python, PostgreSQL, AWS, Docker, Redis, Node.js](https://skillicons.dev/icons?i=unity,cs,python,postgres,aws,docker,redis,nodejs&theme=dark&perline=9)](https://skillicons.dev)
  
-**Game Client** · Unity · C# · Procedural Generation · Unreal(기본)  
+**Game Client** · Unity · C# · Procedural Generation
 **Server & Infra** · Node.js · Redis · Protobuf · Docker · AWS  
 **AI Engineering** · Python · RAG · AI Agent Orchestration · MCP · Postgres/pgvector
 
