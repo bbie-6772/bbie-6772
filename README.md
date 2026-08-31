@@ -23,7 +23,7 @@
 
 ## Skill 구성 · Loadout
  
-[![Unity, Unreal Engine, C#, Python, PostgreSQL, AWS, Docker, Redis, Node.js](https://skillicons.dev/icons?i=unity,unreal,cs,python,postgres,aws,docker,redis,nodejs&theme=dark&perline=9)](https://skillicons.dev)
+[![Unity, C#, Python, PostgreSQL, AWS, Docker, Redis, Node.js](https://skillicons.dev/icons?i=unity,cs,python,postgres,aws,docker,redis,nodejs&theme=dark&perline=9)](https://skillicons.dev)
  
 **Game Client** · Unity · C# · Procedural Generation · Unreal(기본)  
 **Server & Infra** · Node.js · Redis · Protobuf · Docker · AWS  
