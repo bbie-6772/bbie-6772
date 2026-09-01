@@ -30,24 +30,27 @@
 
 # 🎯 Game Client — Primary Focus
 
-<details>
-<summary><b>🟢 2d-survivor</b> — Unity · C# · 직접 작성 중 <code>In Progress</code></summary>
-<br>
+## 🟢 2d-survivor — Unity · C# · 직접 작성 중 "In Progress"
 
-웨이브 서바이버 장르를 만들며 Unity 클라이언트 코드를 직접 작성하고 있습니다.
+웨이브 서바이버를 만들며 Unity 클라이언트 코드를 직접 작성하고 있습니다.
+필요한 기능을 가장 단순한 형태로 먼저 만들고, 실제로 동작시키며 드러나는 문제를 기준으로 구조를 고쳐나가고 있습니다.
 
-- `PlayerMovement` / `PlayerAim` — 플레이어 이동과 조준
-- `EnemySpawner` / `EnemyChase` — 적 생성과 추적
-- `MeleeWeapon` — 근접 공격과 Hit Detection
-- `Health` / `IDamageable` — 피해 처리 책임 분리
-- `CameraFollow` / `DamageFlash` — 카메라 추적과 피격 피드백
-- 구현 과정의 선택과 이유를 `docs/decisions`에 기록
+- "PlayerMovement" / "PlayerAim" - Update와 FixedUpdate의 주기 차이로 순간 입력이 사라지는 문제를 확인하고, 입력을 읽는 책임과 물리를 적용하는 책임을 분리
+- "Health" / "IDamageable" - 공격하는 쪽이 대상 타입을 몰라도 데미지를 전달하도록 분리
+- "EnemySpawner" / "SpawnerBase" - 적 생성을 확장하며 abstract와 virtual, Unity 생명주기, 초기화 책임을 어떤 기준으로 나눌지 비교한 뒤 현재 규모에서 가장 단순한 쪽을 선택
+- "EnemyChase" - 적이 플레이어를 추적하는 이동 처리
+- "MeleeWeapon" - 근접 공격과 피격 판정
+- "CameraFollow" / "DamageFlash" - 카메라 추적과 피격 피드백
+
+현재 플레이어 이동과 공격, 화면 밖에서의 적 생성과 플레이어 추적, 피해 처리와 처치까지 동작하며 경험치와 성장 요소를 붙여 코어 루프를 완성하는 단계입니다.
+적의 생성과 소멸을 매번 인스턴스화·파괴로 처리하고 있어 오브젝트 풀링 적용을 다음 과제로 두고 있습니다.
+
+구현 과정에서 어떤 선택지를 비교했고 왜 그 방향을 골랐는지는 "docs/decisions"에 기록하고 있습니다.
 
 [![Repository](https://img.shields.io/badge/Repository-2d--survivor-181717?style=flat-square&logo=github)](https://github.com/bbie-6772/2d-survivor)
 [![Source](https://img.shields.io/badge/View-C%23_Scripts-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/bbie-6772/2d-survivor/tree/main/Assets/_Project/Scripts)
 [![Decisions](https://img.shields.io/badge/View-Design_Decisions-0969DA?style=flat-square&logo=markdown&logoColor=white)](https://github.com/bbie-6772/2d-survivor/tree/main/docs/decisions)
 
-</details>
 
 ---
 
@@ -65,7 +68,7 @@
 
 2~8인이 협력하는 생존 게임의 멀티플레이 서버를 개발했습니다. 다른 팀원 한 명과 역할별 서버 분리 구조를 설계하고 구현을 맡아 Gateway, Lobby, Game Server로 책임을 나눴습니다.
 
-부하 테스트를 점진 증가 방식으로 다시 설계해 게임 수가 `99`에서 멈추는 현상을 발견했고, Redis 값이 문자열 기준으로 비교되던 문제를 수정했습니다. 이후 다시 측정해 **Game Server 한 대당 약 1,850 game sessions**이라는 기준을 얻었습니다.
+부하 테스트를 점진 증가 방식으로 다시 설계해 게임 수가 "99"에서 멈추는 현상을 발견했고, Redis 값이 문자열 기준으로 비교되던 문제를 수정했습니다. 이후 다시 측정해 **Game Server 한 대당 약 1,850 game sessions**이라는 기준을 얻었습니다.
 
 **283 commits — 팀 내 최다 기여**
 
@@ -98,10 +101,12 @@ AI에게 게임 개발을 어디까지 맡길 수 있는지 확인하기 위해 
 
 두 차례의 Unity 게임 제작 실험에서는 **게임 코드를 직접 작성하지 않고**, 어떤 명세를 어떤 범위로 구현할지 정한 뒤 생성된 결과를 검증하고 문제의 원인을 찾아 수정 방향을 요청하는 역할을 맡았습니다.
 
-그 과정에서 코드를 직접 써보지 않으면 만들어진 구조를 충분히 이해하기 어렵고, 결국 수정 요청의 품질도 떨어진다는 한계를 경험했습니다. 그래서 현재 `2d-survivor`에서는 AI를 구현자보다 **학습과 검토를 돕는 도구**로 사용하고 코드는 직접 작성하고 있습니다.
+그 과정에서 코드를 직접 써보지 않으면 만들어진 구조를 충분히 이해하기 어렵고, 결국 수정 요청의 품질도 떨어진다는 한계를 경험했습니다. 그래서 현재 "2d-survivor"에서는 AI를 구현자보다 **학습과 검토를 돕는 도구**로 사용하고 코드는 직접 작성하고 있습니다.
 
 [![Orchestration](https://img.shields.io/badge/Game_Develop-Orchestration-412991?style=flat-square&logo=github)](https://github.com/JugleGame/Game-Develop-Orchestration)
 [![RAG](https://img.shields.io/badge/Game_Planning-RAG-412991?style=flat-square&logo=github)](https://github.com/JugleGame/Game-Planning-RAG)
+
+**프로젝트 결과물** — [다음에 (플레이)](https://juglegame.github.io/project-daeum/) · 코드는 AI가 작성했으며, 명세 결정과 검증을 담당했습니다.
 
 </details>
 
@@ -113,13 +118,13 @@ AI에게 게임 개발을 어디까지 맡길 수 있는지 확인하기 위해 
 
 [![Unity, CSharp](https://skillicons.dev/icons?i=unity,cs&theme=dark)](https://skillicons.dev)
 
-`Unity` · `C#` · `Input System` · `2D Physics` · `WebGL`
+"Unity" · "C#" · "Input System" · "2D Physics" · "WebGL"
 
 ### 🌐 Server / Infrastructure — Secondary
 
 [![NodeJS, Redis, Docker, AWS, PostgreSQL](https://skillicons.dev/icons?i=nodejs,redis,docker,aws,postgres&theme=dark)](https://skillicons.dev)
 
-`TCP` · `Protobuf` · `Redis` · `Docker` · `AWS`
+"TCP" · "Protobuf" · "Redis" · "Docker" · "AWS"
 
 ### 📖 Currently Learning
 
