@@ -19,13 +19,14 @@
 ## 🟢 2d-survivor
 **Unity 6 · C# · Personal Project**
 
-직접 기획하고 게임플레이 코드를 작성하며 Unity 클라이언트의 입력·물리·전투 구조를 학습하고 있습니다.
+직접 기획·구현한 5분 생존형 2D 서바이버로, Unity Gameplay 구조와 성능 판단 과정을 학습중인 프로젝트입니다.
 
-- 이동·조준·대시·적 스폰·추적·근접 전투 구현
-- 필요한 기능을 단순하게 먼저 구현하고 실제 동작에서 드러난 문제를 기준으로 구조 개선
-- 구현 대안·선택 이유·감수한 비용·재검토 조건을 `docs/decisions`에 기록
-- 현재 전투 이후 경험치와 성장 요소를 추가해 코어 루프를 확장 중
+- 이동·대시·근접 전투부터 웨이브·경험치·3택 성장·승패·재시작까지 한 판의 Gameplay Loop 구현
+- `Update / FixedUpdate` 실행 주기 차이로 발생한 Dash 입력 유실을 재현하고 입력 생성·소비 책임을 분리
+- Unity Profiler로 Object Pooling / GC 최적화 가설을 검증하고, 실제 병목이 `Physics2D` 밀집도임을 확인
+- 측정 결과를 기준으로 동시 스폰 상한을 적용하고, 구현 대안과 판단 근거를 `docs/decisions` 32건에 기록
 
+[![Play](https://img.shields.io/badge/▶_Play-2D_Survivor-4CAF50?style=for-the-badge)](https://bbie-6772.github.io/2d-survivor/)
 [![Repository](https://img.shields.io/badge/Repository-2d--survivor-181717?style=flat-square&logo=github)](https://github.com/bbie-6772/2d-survivor)
 [![Source](https://img.shields.io/badge/View-C%23_Scripts-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/bbie-6772/2d-survivor/tree/main/Assets/_Project/Scripts)
 [![Decisions](https://img.shields.io/badge/View-Design_Decisions-0969DA?style=flat-square&logo=markdown&logoColor=white)](https://github.com/bbie-6772/2d-survivor/tree/main/docs/decisions)
